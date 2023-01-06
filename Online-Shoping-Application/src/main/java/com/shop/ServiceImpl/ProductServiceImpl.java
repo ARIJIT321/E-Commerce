@@ -7,17 +7,18 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Shopping.Exceptions.LoginException;
-import com.Shopping.Exceptions.SellerException;
-import com.Shopping.Exceptions.ProductException;
-import com.Shopping.Model.Cart;
-import com.Shopping.Model.CurrentUserSession;
-import com.Shopping.Model.Seller;
-import com.Shopping.Model.Products;
-import com.Shopping.Repository.CartRepo;
-import com.Shopping.Repository.CurrentUserSessionRepo;
-import com.Shopping.Repository.Productrepo;
-import com.Shopping.Repository.sellerRepo;
+import com.shop.Exceptions.LoginException;
+import com.shop.Exceptions.SellerException;
+import com.shop.Exceptions.ProductException;
+import com.shop.Model.Cart;
+import com.shop.Model.CurrentUserSession;
+import com.shop.Model.Seller;
+import com.shop.Model.Products;
+import com.shop.Repository.CartRepo;
+import com.shop.Repository.CurrentUserSessionRepo;
+import com.shop.Repository.Productrepo;
+import com.shop.Repository.sellerRepo;
+import com.shop.Services.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService{

@@ -10,23 +10,24 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Shopping.Exceptions.AddressException;
-import com.Shopping.Exceptions.CartException;
-import com.Shopping.Exceptions.CustomerException;
-import com.Shopping.Exceptions.LoginException;
-import com.Shopping.Exceptions.OrderException;
-import com.Shopping.Model.Cart;
-import com.Shopping.Model.CurrentUserSession;
-import com.Shopping.Model.Customer;
-import com.Shopping.Model.Feedback;
-import com.Shopping.Model.Order;
-import com.Shopping.Model.ProductDTO;
-import com.Shopping.Model.Products;
-import com.Shopping.Repository.CurrentUserSessionRepo;
-import com.Shopping.Repository.CustomerRepo;
-import com.Shopping.Repository.FeedBackRepo;
-import com.Shopping.Repository.OrderRepo;
-import com.Shopping.Repository.ProductDTORepo;
+import com.shop.Exceptions.AddressException;
+import com.shop.Exceptions.CartException;
+import com.shop.Exceptions.CustomerException;
+import com.shop.Exceptions.LoginException;
+import com.shop.Exceptions.OrderException;
+import com.shop.Model.Cart;
+import com.shop.Model.CurrentUserSession;
+import com.shop.Model.Customer;
+import com.shop.Model.Feedback;
+import com.shop.Model.Order;
+import com.shop.Model.ProductDTO;
+import com.shop.Model.Products;
+import com.shop.Repository.CurrentUserSessionRepo;
+import com.shop.Repository.CustomerRepo;
+import com.shop.Repository.FeedBackRepo;
+import com.shop.Repository.OrderRepo;
+import com.shop.Repository.ProductDTORepo;
+import com.shop.Services.OrderService;
 
 @Service
 public class OrderServiceImpl implements OrderService {

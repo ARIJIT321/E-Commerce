@@ -1,4 +1,4 @@
-package com.Shopping.Controller;
+package com.shop.Controller;
 
 import java.util.List;
 
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.Shopping.Exceptions.AddressException;
-import com.Shopping.Exceptions.CartException;
-import com.Shopping.Exceptions.CustomerException;
-import com.Shopping.Exceptions.LoginException;
-import com.Shopping.Exceptions.OrderException;
-import com.Shopping.Model.Order;
-import com.Shopping.Services.OrderService;
+import com.shop.Exceptions.AddressException;
+import com.shop.Exceptions.CartException;
+import com.shop.Exceptions.CustomerException;
+import com.shop.Exceptions.LoginException;
+import com.shop.Exceptions.OrderException;
+import com.shop.Model.Order;
+import com.shop.Services.OrderService;
 
 @RestController
 public class OrderController {
