@@ -1,16 +1,17 @@
-# E-Commers
 
-<h2 align="center">About A REST full api webservice for ecommerce website. This API performs all the CRUD operations related to user,login,product,category,address and cart.</h2>
+<h2 align="center">E-Commerce</h2>
+ 
+
+<h2 align="center">A Backend project providing Rest Api for E-Commerce application. The Api can perform all the crud operation with customer validation on every step.</h2>
 
 
 <br>
-## Modules
+## Backend Work
 
- * Login Module
- * Customer Module
- * Product Module
- * Order Module
- * Cart Module
+ * Proper Exception Handling
+ *Proper Input Validation
+ * Data Stored in the database(mySQL)
+ * User Authentication of signUp and Login
 
 <h2 align="left">Tech-stack</h2>
 <h4 align="left">
@@ -33,5 +34,18 @@
 - spring.jpa.hibernate.ddl-auto=update
 
 
+<br>
+
+<h1>Modules</h1>
+<ul>
+<li><h3>Login Module</h3></li>
+  <li><h3>Customer Module</h3></li>
+  <li><h3>Product Module</h3></li>
+  <li><h3>Order Module</h3></li>
+  <li><h3>Cart Module</h3></li>
+  <li><h3>Seller Module</h3></li>
+  <li><h3>payment Module</h3></li>
+  <li><h3>Feedback Module</h3></li>
+</ul>
 
 
