@@ -10,9 +10,7 @@ public interface AdminServices {
 	
 	public Admin updateAdmin(Admin admin,String key) throws LoginException,AdminException;
 	
-	public String deleteAdmin(Integer adminId,String key)
-			throws LoginException,AdminException;
+	public String deleteAdmin(Integer adminId,String key) throws LoginException,AdminException;
 	
-	public Admin getAdminById(Integer adminId,String key)
-			throws LoginException,AdminException;
+	public Admin getAdminById(Integer adminId,String key) throws LoginException,AdminException;
 }
